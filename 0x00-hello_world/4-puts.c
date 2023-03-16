@@ -1,4 +1,7 @@
 #include <stdio.h>
+/**
+ *main - this is the main funcyion
+ */
 int main(void)
 {
 	/*printing this statment*/
