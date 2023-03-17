@@ -19,7 +19,7 @@ int main(void)
 			{
 				for (l = 48; l < 58; l++)
 				{
-					if (l > j || k > i)
+					if ((l > j || k > i) && (l >= i || k >= j))
 					{
 						putchar(i);
 						putchar(j);
