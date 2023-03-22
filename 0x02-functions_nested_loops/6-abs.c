@@ -8,10 +8,10 @@ int _abs(int n)
 {
 	if (n >= 0)
 	{
-		eturn (n);
+		return (n);
 	}
 	else
 	{
-		eturn (-n);
+		return (-n);
 	}
 }
