@@ -2,7 +2,7 @@
 /**
  * _isupper - check if the character upper case or lower case
  * @c: the character
- * Retur: 1 if c is upper. 0 otherwise
+ * Return: 1 if c is upper. 0 otherwise
  */
 int _isupper(int c)
 {
