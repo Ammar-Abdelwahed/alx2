@@ -7,6 +7,7 @@ void rev_string(char *s)
 {
 	int i = 0;
 	int j = 0;
+	char c;
 	/* get the last character of the string */
 	while (s[i] != 0)
 	{
@@ -20,8 +21,6 @@ void rev_string(char *s)
 
 	while (j != i)
 	{
-		char c;
-
 		c = s[i];
 		s[i] = s[j];
 		s[j] = c;
