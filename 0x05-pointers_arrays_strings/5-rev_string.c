@@ -13,7 +13,10 @@ void rev_string(char *s)
 		i++;
 	}
 	/* decrease the value by 1 because of the null value */
-	i--;
+	if (i > 0)
+	{
+		i--;
+	}
 
 	while (j != i)
 	{
