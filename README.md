@@ -1,1 +1,1 @@
-hi
+vardiac function and constant variables
